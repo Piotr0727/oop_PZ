@@ -10,6 +10,7 @@ module org.example.review {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires annotations;
 
     opens org.example.review to javafx.fxml;
     exports org.example.review;
